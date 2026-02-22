@@ -19,7 +19,8 @@ print("Exercise 2.1")
 
 pass
 
-print("---")
+for i in range(20):
+  print("All work and no play makes Jack a dull boy.")
 """
 Exercise 2.2
 
@@ -32,7 +33,8 @@ print("Exercise 2.2")
 
 pass
 
-print("---")
+for i in range(6):
+  print(i)
 
 
 """
@@ -47,7 +49,8 @@ print("Exercise 2.3")
 
 pass
 
-print("---")
+for i in range(2, 9, 2):
+  print(i)
 
 """
 Exercise 2.4
@@ -61,7 +64,8 @@ print("Exercise 2.4")
 
 pass
 
-print("---")
+for i in range(10, 0, -1):
+  print(i-1)
 
 """
 Exercise 2.5
@@ -82,8 +86,8 @@ Write code that prints out the following sequence:
 print("Exercise 2.5")
 
 pass
-
-print("---")
+for i in range (8):
+  print("z"*(i+1))
 
 """
 Exercise 2.6
@@ -108,8 +112,10 @@ print("Exercise 2.6")
 
 pass
 
-print("---")
-
+for i in range(5):
+  for k in range(i+1):
+    print(k+1, end = '')
+  print("")
 """
 Exercise 2.7
 
@@ -137,7 +143,8 @@ print("Exercise 2.7")
 rows = 5
 pass
 
-print("---")
+for i in range(rows):
+  print((rows-i)*" " + (2*i+1)*"o")
 
 """
 Exercise 2.8
@@ -165,4 +172,8 @@ print("Exercise 2.8")
 
 pass
 
+for i in range(10):
+    for k in range (10):
+        print("{:<4}".format((i+1)*(k+1)), end = "")
+    print("")
 print("---")
