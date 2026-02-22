@@ -20,7 +20,10 @@ print("Exercise 4.1")
 
 pass
 
-print("---")
+sum = 0
+for i in dct:
+  sum += dct[i]
+print(sum)
 
 """
 Exercise 4.2
@@ -34,7 +37,7 @@ print("Exercise 4.2")
 
 pass
 
-print("---")
+print(max(dct.values()))
 
 """
 Exercise 4.3
@@ -48,7 +51,10 @@ print("Exercise 4.3")
 
 pass
 
-print("---")
+dct2 = {}
+for i in dct:
+  dct2[i] = dct[i] ** 2
+print(dct2)
 
 """
 Exercise 4.4
@@ -62,7 +68,11 @@ print("Exercise 4.4")
 
 pass
 
-print("---")
+even = []
+for i in dct:
+  if dct[i] % 2 == 0:
+    even.append(i)
+print(even)
 
 """
 Exercise 4.5
@@ -76,7 +86,10 @@ print("Exercise 4.5")
 
 pass
 
-print("---")
+dct3 = {}
+for key, value in dct.items():
+  dct3[value] = key
+print(dct3)
 
 """
 Exercise 4.6
@@ -93,7 +106,10 @@ print("Exercise 4.6")
 
 pass
 
-print("---")
+dict4 = {}
+for i in s:
+  dict4[i] = s.count(i)
+print(dict4)
 
 """
 Exercise 4.7
@@ -112,7 +128,10 @@ print("Exercise 4.7")
 
 pass
 
-print("---")
+lst = []
+for i in responses:
+  lst.append(responses_mapping[i])
+print(lst)
 
 """
 Exercise 4.8
@@ -127,7 +146,10 @@ print("Exercise 4.8")
 
 pass
 
-print("---")
+dct5 = {'a': 1, 'b': 2}
+dct6 = {'c': 3, 'd': 4}
+dct5.update(dct6.items())
+print(dct5)
 
 """
 Exercise 4.9
@@ -142,7 +164,11 @@ print("Exercise 4.9")
 
 pass
 
-print("---")
+dct_anim = {'zebra': 10, 'dolphin': 25, 'alligator': 3, 'monkey': 5, 'pig': 9}
+sorted_by_keys = {}
+for i in sorted(dct_anim):
+  sorted_by_keys[i] = dct_anim[i]
+print(sorted_by_keys)
 
 """
 Exercise 4.10
@@ -157,4 +183,13 @@ print("Exercise 4.10")
 
 pass
 
-print("---")
+sorted_by_values = {}
+
+def value_key(x):
+  return x[1]
+
+for key, value in sorted(dct_anim.items(), key=value_key):
+  sorted_by_values[key] = value
+
+print(sorted_by_values)
+
