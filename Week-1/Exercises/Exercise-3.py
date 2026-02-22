@@ -21,7 +21,10 @@ print("Exercise 3.1")
 
 pass
 
-print("---")
+sum = 0
+for i in lst:
+  sum += i
+print(sum)
 
 """
 Exercise 3.2
@@ -35,7 +38,10 @@ print("Exercise 3.2")
 
 pass
 
-print("---")
+product = 1
+for i in lst:
+  product = product * i
+print(product)
 
 """
 Exercise 3.3
@@ -49,7 +55,10 @@ print("Exercise 3.3")
 
 pass
 
-print("---")
+sum = 0
+for i in lst:
+  sum += i*i
+print(sum)
 
 """
 Exercise 3.4
@@ -63,7 +72,7 @@ print("Exercise 3.4")
 
 pass
 
-print("---")
+print(max(lst))
 
 """
 Exercise 3.5
@@ -77,4 +86,4 @@ print("Exercise 3.5")
 
 pass
 
-print("---")
+print(max(lst))
