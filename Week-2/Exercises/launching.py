@@ -8,13 +8,14 @@ exp = design.Experiment(name = "Two Rectangles")
 # Initialize the experiment: Must be done before presenting any stimulus
 control.initialize(exp)
 
-rec1 = stimuli.Rectangle(size=(50, 70), colour='red', position=(-100, 0))
+rec1 = stimuli.Rectangle(size=(50, 70), colour='red', position=(-400, 0))
 
-rec2 = stimuli.Rectangle(size=(50, 70), colour='green', position=(100, 0))
+rec2 = stimuli.Rectangle(size=(50, 70), colour='green')
             
 rec1.present(clear=True, update=False)
 
 rec2.present(clear=False, update=True)
+
 
 # Leave the on-screen until a key is pressed
 exp.keyboard.wait()
