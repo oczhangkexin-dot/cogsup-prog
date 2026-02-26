@@ -1,0 +1,17 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp936
+#date: Thu Feb 26 2026 18:26:11
+#sha1: 970164
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='Kexin', release='11', version='10.0.26200', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+1341,design,log,
+#design: #exp: Rectangle
+#design: block_cnt,block_id,trial_cnt,trial_id
+1341,design,logged,
+1341,Experiment,started
+1344,Stimulus,presented,1
+1351,Stimulus,presented,0
+1351,stderr,received,'Traceback (most recent call last):'
+1352,stderr,received,'  File "d:\\认知科学\\Programming\\Assignments\\Week-2\\Exercises\\square.py", line 27, in <module>\n    fixation.clock.wait(1000)\n    ^^^^^^^^^^^^^^'
+1352,stderr,received,"AttributeError: 'FixCross' object has no attribute 'clock'"

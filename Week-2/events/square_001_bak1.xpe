@@ -1,0 +1,16 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp936
+#date: Thu Feb 26 2026 17:58:48
+#sha1: b9f8fe
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='Kexin', release='11', version='10.0.26200', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+5613,design,log,
+#design: #exp: Circle
+#design: block_cnt,block_id,trial_cnt,trial_id
+5614,design,logged,
+5614,Experiment,started
+5617,Stimulus,presented,0
+5626,Stimulus,presented,1
+8220,Keyboard,received,13,wait
+8220,Experiment,ended
