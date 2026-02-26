@@ -31,7 +31,7 @@ exp.clock.wait(500)
 Rectangle.present(clear=True, update=True)
 
 
-# Leave it on-screen until a key is pressed
+# Leave the rectangle on-screen until a key is pressed
 exp.keyboard.wait()
 
 # End the current session and quit expyriment
