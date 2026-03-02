@@ -8,17 +8,31 @@ exp = design.Experiment(name = "Two Rectangles")
 # Initialize the experiment: Must be done before presenting any stimulus
 control.initialize(exp)
 
-rec1 = stimuli.Rectangle(size=(50, 70), colour='red', position=(-400, 0))
+rec1 = stimuli.Rectangle(size=(50, 70), colour='red', position=(-375, 0))
 
-rec2 = stimuli.Rectangle(size=(50, 70), colour='green')
+rec2 = stimuli.Rectangle(size=(50, 70), colour='green', position=(25, 0))
             
 rec1.present(clear=True, update=False)
 
 rec2.present(clear=False, update=True)
 
+i = 0
+while i < 280:
+    rec1.move(offset=(1.25, 0))
+    rec1.present(clear=True, update=False)
+    rec2.present(clear=False, update=True)
+    i+=1
 
-# Leave the on-screen until a key is pressed
-exp.keyboard.wait()
+i = 0
+while i < 280:
+    rec2.move(offset=(1.25, 0))
+    rec1.present(clear=True, update=False)
+    rec2.present(clear=False, update=True)
+    i+=1
+
+# Leave the fixation on-screen for 500 ms
+exp.clock.wait(1000)
+
 
 # End the current session and quit expyriment
 control.end()
