@@ -8,29 +8,28 @@ exp = design.Experiment(name = "Two Rectangles")
 # Initialize the experiment: Must be done before presenting any stimulus
 control.initialize(exp)
 
-rec1 = stimuli.Rectangle(size=(50, 70), colour='red', position=(-375, 0))
+#Create two squares
+rec1 = stimuli.Rectangle(size=(50, 50), colour='red', position=(-375, 0))
 
-rec2 = stimuli.Rectangle(size=(50, 70), colour='green', position=(25, 0))
+rec2 = stimuli.Rectangle(size=(50, 50), colour='green', position=(25, 0))
             
-rec1.present(clear=True, update=False)
-
-rec2.present(clear=False, update=True)
-
+#The red square moving to the right until reaching the greed square
 i = 0
 while i < 280:
+    rec1.present(clear=True, update=False)
+    rec2.present(clear=False, update=True)
     rec1.move(offset=(1.25, 0))
-    rec1.present(clear=True, update=False)
-    rec2.present(clear=False, update=True)
     i+=1
 
+#The green square moving to the right until reaching the right border
 i = 0
 while i < 280:
-    rec2.move(offset=(1.25, 0))
     rec1.present(clear=True, update=False)
     rec2.present(clear=False, update=True)
+    rec2.move(offset=(1.25, 0))
     i+=1
 
-# Leave the fixation on-screen for 500 ms
+# Leave the squares on-screen for 1000 ms
 exp.clock.wait(1000)
 
 
