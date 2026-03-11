@@ -1,0 +1,15 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp936
+#date: Wed Mar 11 2026 22:30:33
+#sha1: aacf2e
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='Kexin', release='11', version='10.0.26200', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+203,stderr,received,'Exception ignored in: <function Visual.__del__ at 0x0000022F14D61F80>'
+203,stderr,received,'Traceback (most recent call last):'
+203,stderr,received,'  File "D:\\Python\\Lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 266, in __del__'
+204,stderr,received,'    if self._compression_filename is not None:'
+204,stderr,received,"AttributeError: 'TextBox' object has no attribute '_compression_filename'"
+204,stderr,received,'Traceback (most recent call last):'
+205,stderr,received,'  File "d:\\认知科学\\Programming\\Assignments\\Week-2\\Exercises\\labeled_shapes.py", line 27, in <module>\n    txt1 = stimuli.TextBox(\'triangle\', position=(100, 25*math.sqrt(3)+75), text_colour=\'white\')'
+205,stderr,received,"TypeError: TextBox.__init__() missing 1 required positional argument: 'size'"

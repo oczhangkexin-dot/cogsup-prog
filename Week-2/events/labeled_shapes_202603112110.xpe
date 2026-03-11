@@ -1,0 +1,10 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp936
+#date: Wed Mar 11 2026 21:10:40
+#sha1: e774d7
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='Kexin', release='11', version='10.0.26200', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+175,stderr,received,'Traceback (most recent call last):'
+176,stderr,received,'  File "d:\\认知科学\\Programming\\Assignments\\Week-2\\Exercises\\labeled_shapes.py", line 13, in <module>\n    tri.add_vertices((-125,-12.5*math.sqrt(3)), (-75,-12.5*math.sqrt(3)), (-100,12.5*math.sqrt(3)))\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+176,stderr,received,'TypeError: Shape.add_vertices() takes 2 positional arguments but 4 were given'
