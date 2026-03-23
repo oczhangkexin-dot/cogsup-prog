@@ -1,0 +1,15 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp936
+#date: Mon Mar 23 2026 19:31:57
+#sha1: 3a350b
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Kexin', release='11', version='10.0.26200', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+6320,stderr,received,'Exception ignored in: <function Visual.__del__ at 0x000002B9F30D1F80>'
+6320,stderr,received,'Traceback (most recent call last):'
+6320,stderr,received,'  File "D:\\Python\\Lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 266, in __del__'
+6321,stderr,received,'    if self._compression_filename is not None:'
+6321,stderr,received,"AttributeError: 'Rectangle' object has no attribute '_compression_filename'"
+6321,stderr,received,'Traceback (most recent call last):'
+6321,stderr,received,'  File "d:\\认知科学\\Programming\\Assignments\\Week-3\\Exercises\\display-edges.py", line 21, in <module>\n    stimuli.Rectangle()\n    ~~~~~~~~~~~~~~~~~^^'
+6322,stderr,received,"TypeError: Rectangle.__init__() missing 1 required positional argument: 'size'"
