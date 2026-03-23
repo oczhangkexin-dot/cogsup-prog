@@ -1,0 +1,12 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp936
+#date: Mon Mar 23 2026 21:15:15
+#sha1: f968fa
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Kexin', release='11', version='10.0.26200', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+5661,stderr,received,'Traceback (most recent call last):'
+5661,stderr,received,'  File "d:\\认知科学\\Programming\\Assignments\\Week-3\\kanizsa-square.py", line 24, in <module>\n    i.present(clear=True, update=False)\n    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^'
+5661,stderr,received,'  File "D:\\Python\\Lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 1167, in present\n    _internals.active_exp.screen.clear()\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^'
+5662,stderr,received,'  File "D:\\Python\\Lib\\site-packages\\expyriment\\io\\_screen.py", line 329, in clear\n    ogl.glClearColor(float(self._colour[0]) / 255,\n                     ~~~~~^^^^^^^^^^^^^^^^^'
+5662,stderr,received,"ValueError: could not convert string to float: 'C'"

@@ -1,0 +1,17 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp936
+#date: Mon Mar 23 2026 20:59:32
+#sha1: e3a017
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Kexin', release='11', version='10.0.26200', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+9932,Stimulus,presented,1
+9934,stderr,received,'Traceback (most recent call last):'
+9935,stderr,received,'  File "d:\\认知科学\\Programming\\Assignments\\Week-3\\kanizsa-square.py", line 21, in <module>\n    i.present(clear=True, update=False)\n    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^'
+9935,stderr,received,'  File "D:\\Python\\Lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 1171, in present\n    self.preload(inhibit_ogl_compress=True)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+9935,stderr,received,'  File "D:\\Python\\Lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 1058, in preload\n    self._ogl_screen = _LaminaPanelSurface(\n                       ~~~~~~~~~~~~~~~~~~~^\n        self._get_surface(),\n        ^^^^^^^^^^^^^^^^^^^^\n        position=self.position)\n        ^^^^^^^^^^^^^^^^^^^^^^^'
+9935,stderr,received,'  File "D:\\Python\\Lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 80, in __init__\n    self.refresh_position()\n    ~~~~~~~~~~~~~~~~~~~~~^^'
+9936,stderr,received,'  File "D:\\Python\\Lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 110, in refresh_position\n    bottomleft = oglu.gluUnProject(screensize[0] // 2 - \\\n                                   int(misc.py2_round(self._winsize[0] / 2)) + \\\n    ...<2 lines>...\n                                   self._winsize[1] // 2 + \\\n                                   self._position[1], 0)'
+9936,stderr,received,'  File "D:\\Python\\Lib\\site-packages\\OpenGL\\latebind.py", line 63, in __call__\n    return self.wrapperFunction( self.baseFunction, *args, **named )\n           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+9936,stderr,received,'  File "D:\\Python\\Lib\\site-packages\\OpenGL\\GLU\\projection.py", line 55, in gluUnProject\n    result = baseFunction(\n        winX,winY,winZ,\n        model,proj,view,\n        ctypes.byref(objX),ctypes.byref(objY),ctypes.byref(objZ),\n    )'
+9936,stderr,received,'ctypes.ArgumentError: argument 1: TypeError: must be real number, not complex'
