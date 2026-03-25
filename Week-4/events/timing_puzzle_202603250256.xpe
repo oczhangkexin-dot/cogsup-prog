@@ -1,0 +1,12 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp936
+#date: Wed Mar 25 2026 02:56:44
+#sha1: 8d5e88
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='Kexin', release='11', version='10.0.26200', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+486,Stimulus,presented,0
+1489,Stimulus,presented,1
+2492,Stimulus,presented,2
+4492,Experiment,ended
+4496,Stimulus,presented,3
