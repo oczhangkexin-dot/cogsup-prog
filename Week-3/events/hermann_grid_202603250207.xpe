@@ -1,0 +1,11 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp936
+#date: Wed Mar 25 2026 02:07:19
+#sha1: 34d988
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Kexin', release='11', version='10.0.26200', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+4190,stderr,received,'Traceback (most recent call last):'
+4190,stderr,received,'  File "d:\\认知科学\\Programming\\Assignments\\Week-3\\Exercises\\hermann_grid.py", line 35, in <module>\n    hermann_grid((50, 50), constants.C_BLACK, 5, 10, 10, constants.C_WHITE)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+4190,stderr,received,'  File "d:\\认知科学\\Programming\\Assignments\\Week-3\\Exercises\\hermann_grid.py", line 11, in hermann_grid\n    exp.Screen(colour=bg_colour)\n    ^^^^^^^^^^'
+4190,stderr,received,"AttributeError: 'Experiment' object has no attribute 'Screen'. Did you mean: 'screen'?"

@@ -1,0 +1,8 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp936
+#date: Tue Mar 24 2026 01:41:05
+#sha1: 236203
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Kexin', release='11', version='10.0.26200', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+6544,stdout,received,'[<expyriment.stimuli._rectangle.Rectangle object at 0x0000023F4F374050>, <expyriment.stimuli._rectangle.Rectangle object at 0x0000023F4F348550>, <expyriment.stimuli._rectangle.Rectangle object at 0x0000023F4F325980>, <expyriment.stimuli._rectangle.Rectangle object at 0x0000023F4F325BF0>, <expyriment.stimuli._rectangle.Rectangle object at 0x0000023F4F325CC0>]'
