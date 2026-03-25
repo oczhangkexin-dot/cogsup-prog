@@ -1,0 +1,70 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp936
+#date: Wed Mar 25 2026 18:02:03
+#sha1: fbb7b8
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='Kexin', release='11', version='10.0.26200', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+445,stdout,received,'Preloading function not implemented correctly.'
+446,Stimulus,presented,0
+948,Stimulus,presented,1
+1446,stdout,received,'Preloading function not implemented correctly.'
+1447,Stimulus,presented,0
+1949,Stimulus,presented,2
+2446,stdout,received,'Preloading function not implemented correctly.'
+2447,Stimulus,presented,0
+2949,Stimulus,presented,3
+3448,stdout,received,'Preloading function not implemented correctly.'
+3448,Stimulus,presented,0
+3951,Stimulus,presented,4
+4450,stdout,received,'Preloading function not implemented correctly.'
+4450,Stimulus,presented,0
+4953,Stimulus,presented,5
+5451,stdout,received,'Preloading function not implemented correctly.'
+5452,Stimulus,presented,0
+5954,Stimulus,presented,6
+6452,stdout,received,'Preloading function not implemented correctly.'
+6454,Stimulus,presented,0
+6956,Stimulus,presented,7
+7454,stdout,received,'Preloading function not implemented correctly.'
+7455,Stimulus,presented,0
+7957,Stimulus,presented,8
+8455,stdout,received,'Preloading function not implemented correctly.'
+8456,Stimulus,presented,0
+8958,Stimulus,presented,9
+9456,stdout,received,'Preloading function not implemented correctly.'
+9457,Stimulus,presented,0
+9959,Stimulus,presented,10
+10457,stdout,received,'Preloading function not implemented correctly.'
+10458,Stimulus,presented,0
+10960,Stimulus,presented,11
+11458,stdout,received,'Preloading function not implemented correctly.'
+11459,Stimulus,presented,0
+11962,Stimulus,presented,12
+12460,stdout,received,'Preloading function not implemented correctly.'
+12460,Stimulus,presented,0
+12962,Stimulus,presented,13
+13461,stdout,received,'Preloading function not implemented correctly.'
+13461,Stimulus,presented,0
+13963,Stimulus,presented,14
+14462,stdout,received,'Preloading function not implemented correctly.'
+14462,Stimulus,presented,0
+14965,Stimulus,presented,15
+15463,stdout,received,'Preloading function not implemented correctly.'
+15464,Stimulus,presented,0
+15966,Stimulus,presented,16
+16464,stdout,received,'Preloading function not implemented correctly.'
+16465,Stimulus,presented,0
+16967,Stimulus,presented,17
+17465,stdout,received,'Preloading function not implemented correctly.'
+17466,Stimulus,presented,0
+17968,Stimulus,presented,18
+18466,stdout,received,'Preloading function not implemented correctly.'
+18467,Stimulus,presented,0
+18969,Stimulus,presented,19
+19467,stdout,received,'Preloading function not implemented correctly.'
+19468,Stimulus,presented,0
+19970,Stimulus,presented,20
+20468,stdout,received,'[1001, 1000, 1001, 1002, 1002, 1001, 1002, 1001, 1001, 1001, 1001, 1002, 1000, 1002, 1001, 1001, 1001, 1001, 1001, 1001]'
+20468,Experiment,ended
+20491,Stimulus,presented,21

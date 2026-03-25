@@ -1,0 +1,13 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp936
+#date: Wed Mar 25 2026 18:05:12
+#sha1: e7cb84
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='Kexin', release='11', version='10.0.26200', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+468,Stimulus,presented,0
+475,Stimulus,presented,1
+475,stderr,received,'Traceback (most recent call last):'
+476,stderr,received,'  File "d:\\认知科学\\Programming\\Assignments\\Week-4\\Exercises\\drawing_functions.py", line 54, in <module>\n    present_for(stims, 500)\n    ~~~~~~~~~~~^^^^^^^^^^^^'
+476,stderr,received,'  File "d:\\认知科学\\Programming\\Assignments\\Week-4\\Exercises\\drawing_functions.py", line 30, in present_for\n    exp.clock.wait(t-time-c)\n                   ~~~~~~^~'
+476,stderr,received,"TypeError: unsupported operand type(s) for -: 'int' and 'NoneType'"

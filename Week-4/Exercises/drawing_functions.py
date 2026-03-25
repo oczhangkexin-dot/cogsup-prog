@@ -2,14 +2,23 @@ from expyriment import design, control, stimuli
 import random
 
 def load(stims):
-    pass
+    for i in stims:
+        i.preload()
 
 def timed_draw(stims):
-    pass
+    time_e = 0
+    time_s = exp.clock.time
+    for i in stims:
+        if stims.index(i) == 0:
+            i.present(True, False)
+        else:
+            i.present(False, True) 
+        time_e =exp.clock.time + time_e - time_s
+    return time_e
     # return the time it took to draw
 
-def present_for(stims, t=1000):
-    pass
+def present_for(stims, t=1000): 
+    exp.clock.wait(t-timed_draw(stims))
 
 
 """ Test functions """
@@ -38,6 +47,10 @@ for square in squares:
     durations.append(t1-t0)
     t0 = t1
 
-print(durations)
+if all(abs(d - 500) <= 1 for d in durations):
+   print("Well done!")
+else:
+    print(f"Timing off. Measured durations were: {durations}")
+
 
 control.end()

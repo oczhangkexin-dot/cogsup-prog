@@ -1,0 +1,110 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp936
+#date: Wed Mar 25 2026 18:26:28
+#sha1: 0524e1
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='Kexin', release='11', version='10.0.26200', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+448,Stimulus,presented,0
+450,Stimulus,presented,1
+946,Stimulus,presented,0
+948,Stimulus,presented,1
+948,stdout,received,'[0, 1]'
+948,Stimulus,presented,0
+954,Stimulus,presented,2
+1448,Stimulus,presented,0
+1449,Stimulus,presented,2
+1450,stdout,received,'[0, 1]'
+1450,Stimulus,presented,0
+1453,Stimulus,presented,3
+1951,Stimulus,presented,0
+1952,Stimulus,presented,3
+1952,stdout,received,'[0, 1]'
+1952,Stimulus,presented,0
+1960,Stimulus,presented,4
+2452,Stimulus,presented,0
+2453,Stimulus,presented,4
+2453,stdout,received,'[0, 1]'
+2453,Stimulus,presented,0
+2461,Stimulus,presented,5
+2954,Stimulus,presented,0
+2955,Stimulus,presented,5
+2955,stdout,received,'[0, 1]'
+2955,Stimulus,presented,0
+2960,Stimulus,presented,6
+3455,Stimulus,presented,0
+3457,Stimulus,presented,6
+3457,stdout,received,'[0, 1]'
+3457,Stimulus,presented,0
+3460,Stimulus,presented,7
+3957,Stimulus,presented,0
+3959,Stimulus,presented,7
+3959,stdout,received,'[0, 1]'
+3959,Stimulus,presented,0
+3967,Stimulus,presented,8
+4459,Stimulus,presented,0
+4460,Stimulus,presented,8
+4461,stdout,received,'[0, 1]'
+4461,Stimulus,presented,0
+4466,Stimulus,presented,9
+4962,Stimulus,presented,0
+4963,Stimulus,presented,9
+4963,stdout,received,'[0, 1]'
+4963,Stimulus,presented,0
+4967,Stimulus,presented,10
+5463,Stimulus,presented,0
+5465,Stimulus,presented,10
+5465,stdout,received,'[0, 1]'
+5465,Stimulus,presented,0
+5473,Stimulus,presented,11
+5966,Stimulus,presented,0
+5967,Stimulus,presented,11
+5967,stdout,received,'[0, 1]'
+5967,Stimulus,presented,0
+5974,Stimulus,presented,12
+6467,Stimulus,presented,0
+6468,Stimulus,presented,12
+6469,stdout,received,'[0, 1]'
+6469,Stimulus,presented,0
+6476,Stimulus,presented,13
+6969,Stimulus,presented,0
+6971,Stimulus,presented,13
+6971,stdout,received,'[0, 1]'
+6971,Stimulus,presented,0
+6973,Stimulus,presented,14
+7472,Stimulus,presented,0
+7474,Stimulus,presented,14
+7474,stdout,received,'[1, 2]'
+7474,Stimulus,presented,0
+7480,Stimulus,presented,15
+7974,Stimulus,presented,0
+7975,Stimulus,presented,15
+7976,stdout,received,'[0, 1]'
+7976,Stimulus,presented,0
+7980,Stimulus,presented,16
+8476,Stimulus,presented,0
+8477,Stimulus,presented,16
+8478,stdout,received,'[0, 1]'
+8478,Stimulus,presented,0
+8480,Stimulus,presented,17
+8978,Stimulus,presented,0
+8980,Stimulus,presented,17
+8980,stdout,received,'[0, 1]'
+8980,Stimulus,presented,0
+8987,Stimulus,presented,18
+9480,Stimulus,presented,0
+9482,Stimulus,presented,18
+9482,stdout,received,'[0, 1]'
+9482,Stimulus,presented,0
+9487,Stimulus,presented,19
+9982,Stimulus,presented,0
+9984,Stimulus,presented,19
+9984,stdout,received,'[0, 1]'
+9984,Stimulus,presented,0
+9986,Stimulus,presented,20
+10484,Stimulus,presented,0
+10486,Stimulus,presented,20
+10486,stdout,received,'[0, 1]'
+10486,stdout,received,'[499, 502, 502, 501, 503, 501, 502, 502, 502, 502, 502, 502, 502, 502, 503, 502, 502, 502, 502, 502]'
+10486,Experiment,ended
+10493,Stimulus,presented,21
