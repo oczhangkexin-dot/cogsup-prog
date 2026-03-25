@@ -12,7 +12,8 @@ control.start(subject_id=1)
 
 fixation.present(clear=True, update=True)
 exp.clock.wait(500)
-
+#Let the fixation appear again
+fixation.present(clear=True, update=False)
 square.present(clear=False, update=True)
 exp.keyboard.wait()
 
