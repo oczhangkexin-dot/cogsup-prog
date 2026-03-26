@@ -1,5 +1,5 @@
 from expyriment import design, control, stimuli
-from expyriment.misc.constants import C_WHITE, C_BLACK
+from expyriment.misc.constants import C_WHITE, C_BLACK, k_
 
 """ Global settings """
 exp = design.Experiment(name="Blindspot", background_colour=C_WHITE, foreground_colour=C_BLACK)

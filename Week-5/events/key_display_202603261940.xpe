@@ -1,0 +1,12 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp936
+#date: Thu Mar 26 2026 19:40:42
+#sha1: c28222
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='Kexin', release='11', version='10.0.26200', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+320,Stimulus,presented,0
+24680,stderr,received,'Traceback (most recent call last):'
+24680,stderr,received,'  File "d:\\认知科学\\Programming\\Assignments\\Week-5\\Exercises\\key_display.py", line 13, in <module>\n    key= exp.keyboard.wait()'
+24680,stderr,received,'  File "D:\\Python\\Lib\\site-packages\\expyriment\\io\\_keyboard.py", line 378, in wait\n    for event in pygame.event.get([pygame.KEYDOWN, pygame.KEYUP]):\n                 ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+24681,stderr,received,'KeyboardInterrupt'
