@@ -1,0 +1,12 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp936
+#date: Thu Mar 26 2026 18:15:43
+#sha1: c6550f
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='Kexin', release='11', version='10.0.26200', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+362,Stimulus,presented,0
+1365,Stimulus,presented,1
+2366,stderr,received,'Traceback (most recent call last):'
+2367,stderr,received,'  File "d:\\认知科学\\Programming\\Assignments\\Week-4\\Exercises\\timing_puzzle.py", line 23, in <module>\n    units = "second" if fix_duration == 1.0 else "seconds"\n                        ^^^^^^^^^^^^'
+2367,stderr,received,"NameError: name 'fix_duration' is not defined"

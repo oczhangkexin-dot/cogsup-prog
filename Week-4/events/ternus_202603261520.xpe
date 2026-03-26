@@ -1,0 +1,8 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp936
+#date: Thu Mar 26 2026 15:20:02
+#sha1: 70bf96
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='Kexin', release='11', version='10.0.26200', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+184,stdout,received,'[<expyriment.stimuli._circle.Circle object at 0x000001903DD1A7B0>, <expyriment.stimuli._circle.Circle object at 0x000001903DD8C690>, <expyriment.stimuli._circle.Circle object at 0x000001903DD8C550>, <expyriment.stimuli._circle.Circle object at 0x000001903DC77E10>]'

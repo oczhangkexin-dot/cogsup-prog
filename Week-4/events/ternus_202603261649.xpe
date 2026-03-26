@@ -1,0 +1,53 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp936
+#date: Thu Mar 26 2026 16:49:43
+#sha1: 5e0b86
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='Kexin', release='11', version='10.0.26200', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+191,stdout,received,'[<expyriment.stimuli._circle.Circle object at 0x0000026CC1C0A7B0>, <expyriment.stimuli._circle.Circle object at 0x0000026CC1C80690>, <expyriment.stimuli._circle.Circle object at 0x0000026CC1C80550>, <expyriment.stimuli._circle.Circle object at 0x0000026CC1CB4050>]'
+192,Stimulus,presented,0
+193,Stimulus,presented,1
+194,Stimulus,presented,2
+195,Stimulus,presented,3
+865,Stimulus,presented,0
+865,Stimulus,presented,1
+866,Stimulus,presented,2
+867,Stimulus,presented,3
+1537,Stimulus,presented,0
+1538,Stimulus,presented,1
+1538,Stimulus,presented,2
+1539,Stimulus,presented,3
+2209,Stimulus,presented,0
+2210,Stimulus,presented,1
+2210,Stimulus,presented,2
+2211,Stimulus,presented,3
+2881,Stimulus,presented,0
+2881,Stimulus,presented,1
+2882,Stimulus,presented,2
+2883,Stimulus,presented,3
+3552,Stimulus,presented,0
+3553,Stimulus,presented,1
+3553,Stimulus,presented,2
+3554,Stimulus,presented,3
+4223,Stimulus,presented,0
+4224,Stimulus,presented,1
+4225,Stimulus,presented,2
+4226,Stimulus,presented,3
+4895,Stimulus,presented,0
+4896,Stimulus,presented,1
+4897,Stimulus,presented,2
+4898,Stimulus,presented,3
+5567,Stimulus,presented,0
+5568,Stimulus,presented,1
+5568,Stimulus,presented,2
+5569,Stimulus,presented,3
+6239,Stimulus,presented,0
+6239,Stimulus,presented,1
+6240,Stimulus,presented,2
+6241,Stimulus,presented,3
+6909,Keyboard,received,32,check
+8255,Keyboard,received,32,check
+9589,Keyboard,received,32,check
+9591,Experiment,ended
+9596,Stimulus,presented,8

@@ -1,0 +1,12 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp936
+#date: Thu Mar 26 2026 16:00:46
+#sha1: 99b5bd
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='Kexin', release='11', version='10.0.26200', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+213,stderr,received,'Traceback (most recent call last):'
+214,stderr,received,'  File "d:\\认知科学\\Programming\\Assignments\\Week-4\\Exercises\\ternus.py", line 56, in <module>\n    add_tags(stims)\n    ~~~~~~~~^^^^^^^'
+214,stderr,received,'  File "d:\\认知科学\\Programming\\Assignments\\Week-4\\Exercises\\ternus.py", line 51, in add_tags\n    tag = stimuli.Circle(radius=2.5, colour=colours[i]).plot(stims[i])'
+214,stderr,received,'  File "D:\\Python\\Lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 908, in plot\n    raise RuntimeError(Visual._exception_message.format(\n        "plot()"))'
+214,stderr,received,'RuntimeError: Cannot call plot() on preloaded or compressed stimulus!'
