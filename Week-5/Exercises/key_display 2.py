@@ -7,7 +7,7 @@ control.set_develop_mode()
 control.initialize(exp)
 
 """ Create stimuli """
-instruction = "Press a key to indicate the position of the circle. If the circle is on the left of the screen, press 'Left'; if the circle is on the right, press 'Right'. Press 'Space' to continue."
+instruction = "Press a key to indicate the position of the circle. If the circle is on the left of the screen, press 'Left_arrow'; if the circle is on the right, press 'Right_arrow'. Press 'Space' to continue."
 text_instruction = stimuli.TextBox(instruction, size=(600, 300), text_size=25, position=(0, 0))
 text_feedback1 = stimuli.TextLine("Correct!")
 text_feedback2 = stimuli.TextLine("Wrong!")
