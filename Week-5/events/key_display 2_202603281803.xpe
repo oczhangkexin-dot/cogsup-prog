@@ -1,0 +1,38 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp936
+#date: Sat Mar 28 2026 18:03:15
+#sha1: 5460f5
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='Kexin', release='11', version='10.0.26200', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+228,Stimulus,presented,0
+2906,Keyboard,received,32,wait
+2907,Stimulus,presented,3
+2909,Stimulus,presented,4
+5391,Keyboard,received,1073741904,wait
+5393,Stimulus,presented,1
+5393,stdout,received,'5'
+6094,Stimulus,presented,3
+6095,Stimulus,presented,4
+8850,Keyboard,received,1073741903,wait
+8851,Stimulus,presented,1
+8851,stdout,received,'3191'
+9552,Stimulus,presented,3
+9554,Stimulus,presented,4
+13249,Keyboard,received,1073741904,wait
+13250,Stimulus,presented,1
+13251,stdout,received,'6649'
+13951,Stimulus,presented,3
+13953,Stimulus,presented,4
+16268,Keyboard,received,1073741903,wait
+16270,Stimulus,presented,1
+16270,stdout,received,'11050'
+16971,Stimulus,presented,3
+16972,Stimulus,presented,4
+17596,Keyboard,received,1073741904,wait
+17598,Stimulus,presented,1
+17598,stdout,received,'14069'
+18301,Stimulus,presented,5
+19608,Keyboard,received,32,wait
+19608,Experiment,ended
+19613,Stimulus,presented,6

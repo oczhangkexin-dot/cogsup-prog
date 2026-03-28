@@ -1,0 +1,32 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp936
+#date: Fri Mar 27 2026 00:27:12
+#sha1: 33da21
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='Kexin', release='11', version='10.0.26200', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+218,Stimulus,presented,0
+1824,Keyboard,received,32,wait
+1825,Stimulus,presented,3
+1828,Stimulus,presented,4
+3575,Keyboard,received,1073741903,wait
+3578,Stimulus,presented,2
+4578,Stimulus,presented,3
+4581,Stimulus,presented,4
+5291,Keyboard,received,1073741904,wait
+5293,Stimulus,presented,1
+6294,Stimulus,presented,3
+6296,Stimulus,presented,4
+6843,Keyboard,received,1073741904,wait
+6845,Stimulus,presented,1
+7846,Stimulus,presented,3
+7848,Stimulus,presented,4
+8280,Keyboard,received,1073741903,wait
+8283,Stimulus,presented,2
+9284,Stimulus,presented,3
+9286,Stimulus,presented,4
+9724,Keyboard,received,1073741903,wait
+9726,Stimulus,presented,2
+10727,stderr,received,'Traceback (most recent call last):'
+10727,stderr,received,'  File "d:\\认知科学\\Programming\\Assignments\\Week-5\\Exercises\\key_display 2.py", line 32, in <module>\n    print(rand)\n          ^^^^'
+10727,stderr,received,"NameError: name 'rand' is not defined. Did you mean: 'random'?"
