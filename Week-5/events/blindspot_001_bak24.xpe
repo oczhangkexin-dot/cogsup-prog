@@ -1,0 +1,30 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp936
+#date: Sat Mar 28 2026 23:35:33
+#sha1: da727b
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='Kexin', release='11', version='10.0.26200', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+2212,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+2212,design,logged,
+2212,Experiment,started
+2233,stdout,received,'{1073741903: 1, 1073741904: -1, 1073741906: 1, 1073741905: -1, 50: 1, 49: -1}'
+2235,Stimulus,presented,0
+2235,Stimulus,presented,1
+2241,Stimulus,presented,2
+6798,Keyboard,received,1073741904,wait
+6798,Stimulus,presented,1
+6800,Stimulus,presented,2
+7024,Keyboard,received,1073741904,wait
+7024,Stimulus,presented,1
+7026,Stimulus,presented,2
+7183,Keyboard,received,1073741904,wait
+7184,Stimulus,presented,1
+7185,Stimulus,presented,2
+7403,Keyboard,received,1073741904,wait
+7403,Stimulus,presented,1
+7405,Stimulus,presented,2
+7813,Keyboard,received,32,wait
+7815,Experiment,ended

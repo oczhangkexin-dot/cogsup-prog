@@ -1,0 +1,33 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp936
+#date: Sun Mar 29 2026 00:00:58
+#sha1: a9fa6d
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='Kexin', release='11', version='10.0.26200', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+1024,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+1024,design,logged,
+1024,Experiment,started
+1047,Stimulus,presented,0
+2184,Keyboard,received,1073741904,wait
+2184,Stimulus,presented,1
+2185,Stimulus,presented,2
+3649,Keyboard,received,1073741904,wait
+3649,Stimulus,presented,1
+3650,Stimulus,presented,2
+5445,Keyboard,received,1073741903,wait
+5446,Stimulus,presented,1
+5447,Stimulus,presented,2
+6354,Keyboard,received,1073741904,wait
+6354,Stimulus,presented,1
+6356,Stimulus,presented,2
+7000,Keyboard,received,1073741903,wait
+7000,Stimulus,presented,1
+7002,Stimulus,presented,2
+48659,Keyboard,received,49,wait
+48660,stderr,received,'Traceback (most recent call last):'
+48660,stderr,received,'  File "d:\\认知科学\\Programming\\Assignments\\Week-5\\Exercises\\blindspot copy.py", line 49, in <module>\n    run_trial()\n    ~~~~~~~~~^^'
+48660,stderr,received,'  File "d:\\认知科学\\Programming\\Assignments\\Week-5\\Exercises\\blindspot copy.py", line 42, in run_trial\n    circle.scale(factors=(1 + 0.1*zoom, 1 + 0.1*zoom))\n                              ~~~^~~~~'
+48660,stderr,received,"TypeError: unsupported operand type(s) for *: 'float' and 'dict'"

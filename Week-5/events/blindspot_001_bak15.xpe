@@ -1,0 +1,114 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp936
+#date: Sat Mar 28 2026 23:00:13
+#sha1: e6e464
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='Kexin', release='11', version='10.0.26200', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+1173,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+1173,design,logged,
+1173,Experiment,started
+1184,stdout,received,'{1073741903: 1, 1073741904: -1, 1073741906: 1, 1073741905: -1, 50: 1, 49: -1}'
+1184,Stimulus,presented,0
+1184,Stimulus,presented,0
+1186,Stimulus,presented,1
+3178,Keyboard,received,1073741904,wait
+3179,Stimulus,presented,0
+3180,Stimulus,presented,1
+3388,Keyboard,received,1073741904,wait
+3389,Stimulus,presented,0
+3390,Stimulus,presented,1
+3528,Keyboard,received,1073741904,wait
+3528,Stimulus,presented,0
+3530,Stimulus,presented,1
+3655,Keyboard,received,1073741904,wait
+3655,Stimulus,presented,0
+3656,Stimulus,presented,1
+4065,Keyboard,received,1073741906,wait
+4065,Stimulus,presented,0
+4066,Stimulus,presented,1
+4899,Keyboard,received,49,wait
+4903,Stimulus,presented,0
+4904,Stimulus,presented,1
+5864,Keyboard,received,49,wait
+5868,Stimulus,presented,0
+5869,Stimulus,presented,1
+6465,Keyboard,received,49,wait
+6469,Stimulus,presented,0
+6470,Stimulus,presented,1
+6734,Keyboard,received,49,wait
+6737,Stimulus,presented,0
+6739,Stimulus,presented,1
+6947,Keyboard,received,49,wait
+6950,Stimulus,presented,0
+6952,Stimulus,presented,1
+7241,Keyboard,received,49,wait
+7244,Stimulus,presented,0
+7246,Stimulus,presented,1
+7465,Keyboard,received,49,wait
+7469,Stimulus,presented,0
+7470,Stimulus,presented,1
+7691,Keyboard,received,49,wait
+7695,Stimulus,presented,0
+7696,Stimulus,presented,1
+7950,Keyboard,received,49,wait
+7953,Stimulus,presented,0
+7955,Stimulus,presented,1
+9730,Keyboard,received,1073741905,wait
+9731,Stimulus,presented,0
+9733,Stimulus,presented,1
+10254,Keyboard,received,1073741905,wait
+10254,Stimulus,presented,0
+10256,Stimulus,presented,1
+10630,Keyboard,received,1073741906,wait
+10631,Stimulus,presented,0
+10632,Stimulus,presented,1
+10829,Keyboard,received,1073741906,wait
+10829,Stimulus,presented,0
+10831,Stimulus,presented,1
+10986,Keyboard,received,1073741906,wait
+10986,Stimulus,presented,0
+10988,Stimulus,presented,1
+11114,Keyboard,received,1073741906,wait
+11114,Stimulus,presented,0
+11116,Stimulus,presented,1
+11563,Keyboard,received,50,wait
+11567,Stimulus,presented,0
+11568,Stimulus,presented,1
+11975,Keyboard,received,50,wait
+11979,Stimulus,presented,0
+11981,Stimulus,presented,1
+12279,Keyboard,received,50,wait
+12283,Stimulus,presented,0
+12284,Stimulus,presented,1
+12537,Keyboard,received,50,wait
+12541,Stimulus,presented,0
+12542,Stimulus,presented,1
+12748,Keyboard,received,50,wait
+12751,Stimulus,presented,0
+12752,Stimulus,presented,1
+12969,Keyboard,received,50,wait
+12972,Stimulus,presented,0
+12974,Stimulus,presented,1
+13218,Keyboard,received,50,wait
+13221,Stimulus,presented,0
+13223,Stimulus,presented,1
+13406,Keyboard,received,50,wait
+13409,Stimulus,presented,0
+13411,Stimulus,presented,1
+13618,Keyboard,received,50,wait
+13621,Stimulus,presented,0
+13623,Stimulus,presented,1
+14024,Keyboard,received,50,wait
+14027,Stimulus,presented,0
+14029,Stimulus,presented,1
+14335,Keyboard,received,50,wait
+14339,Stimulus,presented,0
+14340,Stimulus,presented,1
+28044,stderr,received,'Traceback (most recent call last):'
+28045,stderr,received,'  File "d:\\认知科学\\Programming\\Assignments\\Week-5\\Exercises\\blindspot.py", line 53, in <module>\n    run_trial()\n    ~~~~~~~~~^^'
+28045,stderr,received,'  File "d:\\认知科学\\Programming\\Assignments\\Week-5\\Exercises\\blindspot.py", line 36, in run_trial\n    key_move, t = exp.keyboard.wait(keys=key_list)\n                  ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^'
+28045,stderr,received,'  File "D:\\Python\\Lib\\site-packages\\expyriment\\io\\_keyboard.py", line 378, in wait\n    for event in pygame.event.get([pygame.KEYDOWN, pygame.KEYUP]):\n                 ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+28045,stderr,received,'KeyboardInterrupt'

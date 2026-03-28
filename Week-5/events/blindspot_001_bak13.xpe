@@ -1,0 +1,21 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp936
+#date: Sat Mar 28 2026 22:57:39
+#sha1: 9f45f7
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='Kexin', release='11', version='10.0.26200', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+1826,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+1826,design,logged,
+1826,Experiment,started
+1835,stdout,received,'{1073741903: 1, 1073741904: -1, 1073741906: 1, 1073741905: -1, 50: 1, 49: -1}'
+1835,Stimulus,presented,0
+1835,Stimulus,presented,0
+1837,Stimulus,presented,1
+3679,Keyboard,received,49,wait
+3680,stderr,received,'Traceback (most recent call last):'
+3680,stderr,received,'  File "d:\\认知科学\\Programming\\Assignments\\Week-5\\Exercises\\blindspot.py", line 53, in <module>\n    run_trial()\n    ~~~~~~~~~^^'
+3681,stderr,received,'  File "d:\\认知科学\\Programming\\Assignments\\Week-5\\Exercises\\blindspot.py", line 44, in run_trial\n    circle.scale(factors=(adjusting_dict[key_move]*1.1, adjusting_dict[key_move*1.1]))\n                                                        ~~~~~~~~~~~~~~^^^^^^^^^^^^^^'
+3681,stderr,received,'KeyError: 53.900000000000006'

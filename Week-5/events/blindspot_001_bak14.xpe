@@ -1,0 +1,70 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp936
+#date: Sat Mar 28 2026 22:57:59
+#sha1: e0918d
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='Kexin', release='11', version='10.0.26200', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+581,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+581,design,logged,
+581,Experiment,started
+593,stdout,received,'{1073741903: 1, 1073741904: -1, 1073741906: 1, 1073741905: -1, 50: 1, 49: -1}'
+593,Stimulus,presented,0
+593,Stimulus,presented,0
+595,Stimulus,presented,1
+2200,Keyboard,received,49,wait
+2204,Stimulus,presented,0
+2205,Stimulus,presented,1
+2619,Keyboard,received,49,wait
+2623,Stimulus,presented,0
+2624,Stimulus,presented,1
+3049,Keyboard,received,49,wait
+3053,Stimulus,presented,0
+3054,Stimulus,presented,1
+3695,Keyboard,received,49,wait
+3699,Stimulus,presented,0
+3700,Stimulus,presented,1
+4135,Keyboard,received,49,wait
+4138,Stimulus,presented,0
+4140,Stimulus,presented,1
+4708,Keyboard,received,49,wait
+4712,Stimulus,presented,0
+4713,Stimulus,presented,1
+5101,Keyboard,received,49,wait
+5105,Stimulus,presented,0
+5106,Stimulus,presented,1
+5840,Keyboard,received,50,wait
+5843,Stimulus,presented,0
+5845,Stimulus,presented,1
+6333,Keyboard,received,50,wait
+6336,Stimulus,presented,0
+6338,Stimulus,presented,1
+6728,Keyboard,received,50,wait
+6731,Stimulus,presented,0
+6733,Stimulus,presented,1
+7721,Keyboard,received,50,wait
+7724,Stimulus,presented,0
+7726,Stimulus,presented,1
+7979,Keyboard,received,50,wait
+7982,Stimulus,presented,0
+7984,Stimulus,presented,1
+8344,Keyboard,received,49,wait
+8348,Stimulus,presented,0
+8351,Stimulus,presented,1
+8715,Keyboard,received,49,wait
+8719,Stimulus,presented,0
+8720,Stimulus,presented,1
+9007,Keyboard,received,49,wait
+9010,Stimulus,presented,0
+9011,Stimulus,presented,1
+9293,Keyboard,received,50,wait
+9296,Stimulus,presented,0
+9298,Stimulus,presented,1
+19434,stderr,received,'Traceback (most recent call last):'
+19434,stderr,received,'  File "d:\\认知科学\\Programming\\Assignments\\Week-5\\Exercises\\blindspot.py", line 53, in <module>\n    run_trial()\n    ~~~~~~~~~^^'
+19434,stderr,received,'  File "d:\\认知科学\\Programming\\Assignments\\Week-5\\Exercises\\blindspot.py", line 36, in run_trial\n    key_move, t = exp.keyboard.wait(keys=key_list)\n                  ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^'
+19435,stderr,received,'  File "D:\\Python\\Lib\\site-packages\\expyriment\\io\\_keyboard.py", line 376, in wait\n    _internals.active_exp.mouse.process_quit_event():\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+19435,stderr,received,'  File "D:\\Python\\Lib\\site-packages\\expyriment\\design\\_structure.py", line 189, in mouse\n    @property\n    '
+19435,stderr,received,'KeyboardInterrupt'

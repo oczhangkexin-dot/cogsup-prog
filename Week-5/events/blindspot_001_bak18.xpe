@@ -1,0 +1,39 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp936
+#date: Sat Mar 28 2026 23:07:47
+#sha1: a77417
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='Kexin', release='11', version='10.0.26200', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+1074,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+1074,design,logged,
+1074,Experiment,started
+1083,stdout,received,'{1073741903: 1, 1073741904: -1, 1073741906: 1, 1073741905: -1, 50: 1, 49: -1}'
+1084,Stimulus,presented,0
+1084,Stimulus,presented,0
+1086,Stimulus,presented,1
+3181,Keyboard,received,49,wait
+3185,Stimulus,presented,0
+3187,Stimulus,presented,1
+4496,Keyboard,received,49,wait
+4500,Stimulus,presented,0
+4502,Stimulus,presented,1
+5316,Keyboard,received,50,wait
+5320,Stimulus,presented,0
+5321,Stimulus,presented,1
+5995,Keyboard,received,50,wait
+5999,Stimulus,presented,0
+6000,Stimulus,presented,1
+6482,Keyboard,received,50,wait
+6485,Stimulus,presented,0
+6487,Stimulus,presented,1
+6810,Keyboard,received,50,wait
+6814,Stimulus,presented,0
+6815,Stimulus,presented,1
+12195,stderr,received,'Traceback (most recent call last):'
+12196,stderr,received,'  File "d:\\认知科学\\Programming\\Assignments\\Week-5\\Exercises\\blindspot.py", line 53, in <module>\n    run_trial()\n    ~~~~~~~~~^^'
+12196,stderr,received,'  File "d:\\认知科学\\Programming\\Assignments\\Week-5\\Exercises\\blindspot.py", line 36, in run_trial\n    key_move, t = exp.keyboard.wait(keys=key_list)\n                  ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^'
+12196,stderr,received,'  File "D:\\Python\\Lib\\site-packages\\expyriment\\io\\_keyboard.py", line 378, in wait\n    for event in pygame.event.get([pygame.KEYDOWN, pygame.KEYUP]):\n                 ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+12196,stderr,received,'KeyboardInterrupt'

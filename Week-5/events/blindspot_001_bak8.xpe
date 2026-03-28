@@ -1,0 +1,22 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp936
+#date: Sat Mar 28 2026 22:48:33
+#sha1: 5ba404
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='Kexin', release='11', version='10.0.26200', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+2319,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+2319,design,logged,
+2319,Experiment,started
+2328,stdout,received,'{1073741903: 1, 1073741904: -1, 1073741906: 1, 1073741905: -1, 50: 1, 49: -1}'
+2328,Stimulus,presented,0
+2328,Stimulus,presented,0
+2330,Stimulus,presented,1
+6899,Keyboard,received,49,wait
+6908,stderr,received,'Traceback (most recent call last):'
+6909,stderr,received,'  File "d:\\认知科学\\Programming\\Assignments\\Week-5\\Exercises\\blindspot.py", line 51, in <module>\n    run_trial()\n    ~~~~~~~~~^^'
+6909,stderr,received,'  File "d:\\认知科学\\Programming\\Assignments\\Week-5\\Exercises\\blindspot.py", line 43, in run_trial\n    circle.scale(factors=(adjusting_dict[key_move], adjusting_dict[key_move]))\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+6909,stderr,received,'  File "D:\\Python\\Lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 1317, in scale\n    raise RuntimeError(Visual._exception_message.format(\n        "scale()"))'
+6909,stderr,received,'RuntimeError: Cannot call scale() on preloaded or compressed stimulus!'
