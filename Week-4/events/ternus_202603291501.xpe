@@ -1,0 +1,19 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp936
+#date: Sun Mar 29 2026 15:01:35
+#sha1: 22e6ab
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='Kexin', release='11', version='10.0.26200', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+390,Stimulus,presented,0
+390,Stimulus,presented,1
+390,Stimulus,presented,2
+395,Stimulus,presented,0
+396,Stimulus,presented,1
+396,Stimulus,presented,2
+480,stderr,received,'Traceback (most recent call last):'
+481,stderr,received,'  File "d:\\认知科学\\Programming\\Assignments\\Week-4\\Exercises\\ternus.py", line 83, in <module>\n    run_trial()\n    ~~~~~~~~~^^'
+481,stderr,received,'  File "d:\\认知科学\\Programming\\Assignments\\Week-4\\Exercises\\ternus.py", line 63, in run_trial\n    present_for(stims[3], num_frames=inter_stimulus_interval)\n    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+481,stderr,received,'  File "d:\\认知科学\\Programming\\Assignments\\Week-4\\Exercises\\ternus.py", line 33, in present_for\n    if (mspf * num_frames - timed_draw(stims)) >= 0:\n                            ~~~~~~~~~~^^^^^^^'
+481,stderr,received,'  File "d:\\认知科学\\Programming\\Assignments\\Week-4\\Exercises\\ternus.py", line 22, in timed_draw\n    for i in stims:\n             ^^^^^'
+481,stderr,received,"TypeError: 'Circle' object is not iterable"

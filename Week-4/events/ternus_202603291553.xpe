@@ -1,0 +1,68 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp936
+#date: Sun Mar 29 2026 15:53:55
+#sha1: c0d422
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='Kexin', release='11', version='10.0.26200', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+255,Stimulus,presented,1
+260,Stimulus,presented,2
+260,Stimulus,presented,1
+264,Stimulus,presented,2
+602,Stimulus,presented,0
+609,Stimulus,presented,0
+1270,Stimulus,presented,3
+1275,Stimulus,presented,3
+1608,Stimulus,presented,0
+1615,Stimulus,presented,0
+2276,Stimulus,presented,3
+2281,Stimulus,presented,3
+2615,Stimulus,presented,0
+2623,Stimulus,presented,0
+3283,Stimulus,presented,3
+3288,Stimulus,presented,3
+3621,Stimulus,presented,0
+3628,Stimulus,presented,0
+4290,Stimulus,presented,3
+4295,Stimulus,presented,3
+4628,Stimulus,presented,0
+4635,Stimulus,presented,0
+5297,Stimulus,presented,3
+5302,Stimulus,presented,3
+5635,Stimulus,presented,0
+5642,Stimulus,presented,0
+6303,Stimulus,presented,3
+6309,Stimulus,presented,3
+6642,Stimulus,presented,0
+6649,Stimulus,presented,0
+7310,Stimulus,presented,3
+7315,Stimulus,presented,3
+7644,Keyboard,received,32,check
+7644,Stimulus,presented,0
+7644,Stimulus,presented,1
+7644,Stimulus,presented,2
+7646,Stimulus,presented,3
+7646,stdout,received,'2'
+7655,Stimulus,presented,0
+7655,Stimulus,presented,1
+7657,Stimulus,presented,2
+7658,Stimulus,presented,0
+7658,Stimulus,presented,1
+7663,Stimulus,presented,2
+7990,Stimulus,presented,1
+7990,Stimulus,presented,2
+7992,Stimulus,presented,3
+7992,Stimulus,presented,1
+7992,Stimulus,presented,2
+7996,Stimulus,presented,3
+8325,Keyboard,received,32,check
+8325,Stimulus,presented,0
+8325,Stimulus,presented,1
+8327,Stimulus,presented,2
+8327,Stimulus,presented,0
+8327,Stimulus,presented,1
+8329,Stimulus,presented,2
+8663,stderr,received,'Traceback (most recent call last):'
+8664,stderr,received,'  File "d:\\认知科学\\Programming\\Assignments\\Week-4\\Exercises\\ternus.py", line 92, in <module>\n    run_trial()\n    ~~~~~~~~~^^'
+8664,stderr,received,'  File "d:\\认知科学\\Programming\\Assignments\\Week-4\\Exercises\\ternus.py", line 87, in run_trial\n    exp.clock.wait(mspf*inter_stimulus_interval-exp.clock.time+p)\n                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~'
+8664,stderr,received,"TypeError: unsupported operand type(s) for +: 'float' and 'NoneType'"

@@ -1,0 +1,88 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp936
+#date: Sun Mar 29 2026 15:51:22
+#sha1: 919c14
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='Kexin', release='11', version='10.0.26200', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+265,Stimulus,presented,1
+268,Stimulus,presented,2
+269,Stimulus,presented,1
+276,Stimulus,presented,2
+603,Stimulus,presented,0
+607,Stimulus,presented,0
+1272,Stimulus,presented,3
+1281,Stimulus,presented,3
+1606,Stimulus,presented,1
+1607,Stimulus,presented,2
+1608,Stimulus,presented,1
+1614,Stimulus,presented,2
+1942,Stimulus,presented,0
+1947,Stimulus,presented,0
+2610,Stimulus,presented,3
+2613,Stimulus,presented,3
+2944,Stimulus,presented,1
+2945,Stimulus,presented,2
+2945,Stimulus,presented,1
+2954,Stimulus,presented,2
+3280,Stimulus,presented,0
+3287,Stimulus,presented,0
+3949,Stimulus,presented,3
+3954,Stimulus,presented,3
+4284,Stimulus,presented,1
+4286,Stimulus,presented,2
+4286,Stimulus,presented,1
+4293,Stimulus,presented,2
+4621,Stimulus,presented,0
+4627,Stimulus,presented,0
+5289,Stimulus,presented,3
+5293,Stimulus,presented,3
+5761,Stimulus,presented,1
+5762,Stimulus,presented,2
+5762,Stimulus,presented,1
+5765,Stimulus,presented,2
+6098,Stimulus,presented,0
+6106,Stimulus,presented,0
+6766,Stimulus,presented,3
+6773,Stimulus,presented,3
+7100,Keyboard,received,32,check
+7100,Stimulus,presented,0
+7100,Stimulus,presented,1
+7100,Stimulus,presented,2
+7101,Stimulus,presented,3
+7101,stdout,received,'1'
+7110,Stimulus,presented,0
+7110,Stimulus,presented,1
+7111,Stimulus,presented,2
+7111,Stimulus,presented,0
+7111,Stimulus,presented,1
+7119,Stimulus,presented,2
+7445,Stimulus,presented,1
+7445,Stimulus,presented,2
+7447,Stimulus,presented,3
+7447,Stimulus,presented,1
+7447,Stimulus,presented,2
+7452,Stimulus,presented,3
+7781,Stimulus,presented,0
+7781,Stimulus,presented,1
+7782,Stimulus,presented,2
+7782,Stimulus,presented,0
+7782,Stimulus,presented,1
+7786,Stimulus,presented,2
+8115,Stimulus,presented,1
+8115,Stimulus,presented,2
+8117,Stimulus,presented,3
+8117,Stimulus,presented,1
+8117,Stimulus,presented,2
+8119,Stimulus,presented,3
+8451,Keyboard,received,32,check
+8451,Stimulus,presented,0
+8451,Stimulus,presented,1
+8454,Stimulus,presented,2
+8454,Stimulus,presented,0
+8454,Stimulus,presented,1
+8460,Stimulus,presented,2
+8789,stderr,received,'Traceback (most recent call last):'
+8790,stderr,received,'  File "d:\\认知科学\\Programming\\Assignments\\Week-4\\Exercises\\ternus.py", line 92, in <module>\n    run_trial()\n    ~~~~~~~~~^^'
+8790,stderr,received,'  File "d:\\认知科学\\Programming\\Assignments\\Week-4\\Exercises\\ternus.py", line 87, in run_trial\n    exp.clock.wait(mspf*inter_stimulus_interval-exp.clock.time+p)\n                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~'
+8790,stderr,received,"TypeError: unsupported operand type(s) for +: 'float' and 'NoneType'"

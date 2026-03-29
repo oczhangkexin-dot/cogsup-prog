@@ -2,13 +2,12 @@
 from expyriment import design, control, stimuli
 from expyriment.misc.constants import K_SPACE, C_BLACK, C_RED, C_YELLOW, C_BLUE, C_WHITE
 
-exp = design.Experiment(name="timing puzzle")
+exp = design.Experiment(name="ternus")
 control.set_develop_mode()
 control.initialize(exp)
 exp.screen.colour = C_WHITE
 
 """ Stimuli generation """
-
 fps = 60
 mspf = 1000/fps
 
@@ -18,13 +17,15 @@ def load(stims):
 
 def timed_draw(stims):
     time_s = exp.clock.time
-    exp.screen.clear()
     for i in stims:
         if len(stims) == 0:
             raise ValueError("There should be at least one stimuli!")
+        elif stims.index(i) == 0:
+            i.present(True, False)
+        elif stims.index(i) < len(stims)-1:
+            i.present(False, False)
         else:
-            i.present(False, False) 
-    exp.screen.update()
+            i.present(False, True)          
     time_e = exp.clock.time - time_s
     return time_e
     # return the time it took to draw
@@ -34,8 +35,6 @@ def present_for(stims, num_frames=20):
         exp.clock.wait(mspf * num_frames - timed_draw(stims))
     else:
         exp.clock.wait(timed_draw(stims))
-    exp.screen.clear()
-    exp.screen.update()
     
 
 def create_circles(radius=70, space = 10):
@@ -55,34 +54,33 @@ def add_tags(stims):
         stimuli.Circle(radius=10, colour=colours[i%3]).plot(stims[i])
 
 """ Trial run"""
-def run_trial(circle_radius=70, inter_stimulus_interval=5, colour_tag=True):
-    stims = create_circles(radius=circle_radius, space=circle_radius/7)
+def run_trial(circle_radius=70, inter_stimulus_interval=0):
+    stims = create_circles(radius=circle_radius, space=circle_radius/7) + [stimuli.Canvas(size=(1080, 1080))]
+    k_check_nums = 0
     load(stims)
     while True:
-        present_for(stims[0:3], num_frames=inter_stimulus_interval)
-        present_for(stims[1:4], num_frames=inter_stimulus_interval)
+        present_for(stims[0:3])
+        t0 = exp.clock.time
+        stims[4].present(True if inter_stimulus_interval > 0 else False, True if inter_stimulus_interval > 0 else False)
+        exp.clock.wait(mspf*inter_stimulus_interval - exp.clock.time + t0)
+        
+        present_for(stims[1:4])
+        t0 = exp.clock.time
+        stims[4].present(True if inter_stimulus_interval > 0 else False, True if inter_stimulus_interval > 0 else False)
+        exp.clock.wait(mspf*inter_stimulus_interval - exp.clock.time + t0)
+        
         if exp.keyboard.check(K_SPACE): 
-            break
-    print(timed_draw(stims))
-    if  colour_tag:
-        for i in stims:
-            i.unload()
-        add_tags(stims)
-        load(stims)
-        while True:     
-            present_for(stims[0:3], num_frames=inter_stimulus_interval)
-            present_for(stims[1:4], num_frames=inter_stimulus_interval)
-            if exp.keyboard.check(K_SPACE): 
-                break
-        while True:
-            present_for(stims[0:3], num_frames=inter_stimulus_interval+20)
-            present_for(stims[1:4], num_frames=inter_stimulus_interval+20)
-            if exp.keyboard.check(K_SPACE): 
-                break
+            k_check_nums += 1 
+            if k_check_nums == 1:
+                for i in stims:
+                    i.unload()
+                add_tags(stims)
+                load(stims)
+            elif k_check_nums == 2:
+                inter_stimulus_interval += 20
+            else:
+                break        
 
+control.start(subject_id=1)                                 
 run_trial()
-
-
-
-# End the current session and quit expyriment
 control.end()

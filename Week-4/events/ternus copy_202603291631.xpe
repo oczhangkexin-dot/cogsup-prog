@@ -1,0 +1,70 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp936
+#date: Sun Mar 29 2026 16:31:50
+#sha1: 104872
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='Kexin', release='11', version='10.0.26200', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+301,Stimulus,presented,0
+301,Stimulus,presented,1
+307,Stimulus,presented,2
+307,Stimulus,presented,0
+307,Stimulus,presented,1
+314,Stimulus,presented,2
+642,Stimulus,presented,4
+975,Stimulus,presented,1
+975,Stimulus,presented,2
+978,Stimulus,presented,3
+978,Stimulus,presented,1
+978,Stimulus,presented,2
+986,Stimulus,presented,3
+1313,Stimulus,presented,4
+1647,Stimulus,presented,0
+1647,Stimulus,presented,1
+1648,Stimulus,presented,2
+1648,Stimulus,presented,0
+1648,Stimulus,presented,1
+1652,Stimulus,presented,2
+1983,Stimulus,presented,4
+2317,Stimulus,presented,1
+2317,Stimulus,presented,2
+2319,Stimulus,presented,3
+2319,Stimulus,presented,1
+2319,Stimulus,presented,2
+2326,Stimulus,presented,3
+2654,Stimulus,presented,4
+2987,Stimulus,presented,0
+2987,Stimulus,presented,1
+2989,Stimulus,presented,2
+2989,Stimulus,presented,0
+2989,Stimulus,presented,1
+2992,Stimulus,presented,2
+3325,Stimulus,presented,4
+3658,Stimulus,presented,1
+3658,Stimulus,presented,2
+3660,Stimulus,presented,3
+3660,Stimulus,presented,1
+3660,Stimulus,presented,2
+3666,Stimulus,presented,3
+3995,Stimulus,presented,4
+4328,Stimulus,presented,0
+4328,Stimulus,presented,1
+4330,Stimulus,presented,2
+4330,Stimulus,presented,0
+4330,Stimulus,presented,1
+4332,Stimulus,presented,2
+4667,Stimulus,presented,4
+5000,Stimulus,presented,1
+5000,Stimulus,presented,2
+5002,Stimulus,presented,3
+5002,Stimulus,presented,1
+5002,Stimulus,presented,2
+5005,Stimulus,presented,3
+5338,Stimulus,presented,4
+5671,Keyboard,received,32,check
+5678,stderr,received,'Traceback (most recent call last):'
+5679,stderr,received,'  File "d:\\认知科学\\Programming\\Assignments\\Week-4\\Exercises\\ternus copy.py", line 84, in <module>\n    run_trial()\n    ~~~~~~~~~^^'
+5679,stderr,received,'  File "d:\\认知科学\\Programming\\Assignments\\Week-4\\Exercises\\ternus copy.py", line 74, in run_trial\n    add_tags(stims)\n    ~~~~~~~~^^^^^^^'
+5679,stderr,received,'  File "d:\\认知科学\\Programming\\Assignments\\Week-4\\Exercises\\ternus copy.py", line 55, in add_tags\n    stimuli.Circle(radius=10, colour=colours[i%3]).plot(stims[i])\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^'
+5679,stderr,received,'  File "D:\\Python\\Lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 908, in plot\n    raise RuntimeError(Visual._exception_message.format(\n        "plot()"))'
+5680,stderr,received,'RuntimeError: Cannot call plot() on preloaded or compressed stimulus!'
