@@ -7,45 +7,49 @@ control.set_develop_mode()
 control.initialize(exp)
 
 """ Stimuli """
-def make_circle(r, pos=(-300,0)):
+def make_circle(r, pos=(0,0)):
     c = stimuli.Circle(r, position=pos, anti_aliasing=10)
     c.preload()
     return c
 
 """ Experiment """
-def run_trial():
-    instruction = "Cover your eye on the same side of the cross. Stare at the cross with the other eye. You can adjust the position (with left and right arrow keys) and size (with key 1 for smaller and key 2 for bigger) of the circle. Press Space to continue."
-    text_instruction = stimuli.TextBox(instruction, size=(500, 300), text_size=30, position=(0, 0), text_justification=0)
+def run_trial(eye):
+    eyes = ['left', 'right']
+    instruction = f"Cover your {eye} eye and staring at the cross with your {eyes[eyes.index(eye)-1]} eye. Using keys to adjust the position (left and right arrows) and size (1 for smaller and 2 for bigger) of the circle until you cannot see it. Press Space to continue."
+    text_instruction = stimuli.TextBox(instruction, size=(600, 300), text_size=25, position=(0, 0), text_justification=0)
     text_instruction.preload()
-    fixation = stimuli.FixCross(size=(150, 150), line_width=10, position=[300, 0])
+    fixation = stimuli.FixCross(size=(150, 150), line_width=10, position=[300, 0] if eye == "left" else [-300, 0])
     fixation.preload()
 
     radius = 75
     circle = make_circle(radius)
     
-    
-    key_list = [K_RIGHT, K_LEFT, K_2, K_1]
+    adjusting_dict = {}
+    key_list = [K_RIGHT, K_LEFT, K_UP, K_DOWN, K_2, K_1]
+    for key in key_list:
+        k_adjust = ({key: (-1)**key_list.index(key)})  
+        adjusting_dict.update(k_adjust)
+    print(adjusting_dict)
+
     text_instruction.present(True, True)
     exp.keyboard.wait()
     while True:
         fixation.present(True, False)
         circle.present(False, True)
-        fx, fy = fixation.position
-        cx, cy = circle.position
-        zoom = {K_1: -1, K_2: 1}
         key_move, t = exp.keyboard.wait(keys=key_list+[K_SPACE])
-        if (key_move == K_RIGHT and cx < fx) or (key_move == K_LEFT and cx > fx): 
-            circle.reposition((fx, fy))
-            fixation.reposition((cx, cy))
+        if key_move in [K_RIGHT, K_LEFT, K_UP, K_DOWN]: 
+            if key_move in [K_RIGHT, K_LEFT]:
+                circle.move(offset=(5*adjusting_dict[key_move], 0))
+            else:
+                circle.move(offset=(0, 5*adjusting_dict[key_move]))
         elif key_move in [K_2, K_1]:
-            circle.unload()
-            circle.scale(factors=(1 + 0.1*zoom[key_move], 1 + 0.1*zoom[key_move]))
-            circle.preload()
-        elif key_move == K_SPACE:
+            radius = radius + 5*adjusting_dict[key_move]
+            circle = make_circle(r=radius, pos=circle.position)
+        else:
             break   
 
 control.start(subject_id=1)
 
-run_trial()
+run_trial("left")
     
 control.end()

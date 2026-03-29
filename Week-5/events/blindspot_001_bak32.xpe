@@ -1,0 +1,79 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp936
+#date: Sun Mar 29 2026 00:42:15
+#sha1: 9795f7
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='Kexin', release='11', version='10.0.26200', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+2153,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+2153,design,logged,
+2153,Experiment,started
+2174,stdout,received,'{1073741903: 1, 1073741904: -1, 1073741906: 1, 1073741905: -1, 50: 1, 49: -1}'
+2176,Stimulus,presented,0
+4109,Keyboard,received,13,wait
+4109,Stimulus,presented,1
+4111,Stimulus,presented,2
+7213,Keyboard,received,49,wait
+7219,Stimulus,presented,1
+7221,Stimulus,presented,3
+7842,Keyboard,received,49,wait
+7848,Stimulus,presented,1
+7850,Stimulus,presented,4
+8389,Keyboard,received,50,wait
+8395,Stimulus,presented,1
+8396,Stimulus,presented,5
+8769,Keyboard,received,50,wait
+8774,Stimulus,presented,1
+8776,Stimulus,presented,6
+9198,Keyboard,received,50,wait
+9205,Stimulus,presented,1
+9207,Stimulus,presented,7
+9456,Keyboard,received,50,wait
+9464,Stimulus,presented,1
+9466,Stimulus,presented,8
+9663,Keyboard,received,50,wait
+9670,Stimulus,presented,1
+9672,Stimulus,presented,9
+9827,Keyboard,received,50,wait
+9833,Stimulus,presented,1
+9835,Stimulus,presented,10
+10025,Keyboard,received,50,wait
+10032,Stimulus,presented,1
+10034,Stimulus,presented,11
+10965,Keyboard,received,1073741904,wait
+10965,Stimulus,presented,1
+10967,Stimulus,presented,11
+11218,Keyboard,received,1073741904,wait
+11218,Stimulus,presented,1
+11220,Stimulus,presented,11
+11337,Keyboard,received,1073741904,wait
+11338,Stimulus,presented,1
+11339,Stimulus,presented,11
+11463,Keyboard,received,1073741904,wait
+11464,Stimulus,presented,1
+11465,Stimulus,presented,11
+11596,Keyboard,received,1073741904,wait
+11596,Stimulus,presented,1
+11597,Stimulus,presented,11
+11724,Keyboard,received,1073741904,wait
+11724,Stimulus,presented,1
+11726,Stimulus,presented,11
+11860,Keyboard,received,1073741904,wait
+11860,Stimulus,presented,1
+11862,Stimulus,presented,11
+11974,Keyboard,received,1073741904,wait
+11974,Stimulus,presented,1
+11976,Stimulus,presented,11
+12666,Keyboard,received,49,wait
+12673,Stimulus,presented,1
+12674,Stimulus,presented,12
+13247,Keyboard,received,50,wait
+13255,Stimulus,presented,1
+13256,Stimulus,presented,13
+13634,Keyboard,received,49,wait
+13641,Stimulus,presented,1
+13643,Stimulus,presented,14
+16436,Keyboard,received,32,wait
+16439,Experiment,ended

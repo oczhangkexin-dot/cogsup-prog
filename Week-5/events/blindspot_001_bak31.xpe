@@ -1,0 +1,37 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp936
+#date: Sun Mar 29 2026 00:41:12
+#sha1: fb1e67
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='Kexin', release='11', version='10.0.26200', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+981,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+981,design,logged,
+981,Experiment,started
+1004,stdout,received,'{1073741903: 1, 1073741904: -1, 1073741906: 1, 1073741905: -1, 50: 1, 49: -1}'
+1006,Stimulus,presented,0
+2113,Keyboard,received,32,wait
+2113,Stimulus,presented,1
+2114,Stimulus,presented,2
+3571,Keyboard,received,1073741904,wait
+3571,Stimulus,presented,1
+3573,Stimulus,presented,2
+3837,Keyboard,received,1073741904,wait
+3838,Stimulus,presented,1
+3839,Stimulus,presented,2
+3992,Keyboard,received,1073741904,wait
+3992,Stimulus,presented,1
+3994,Stimulus,presented,2
+4118,Keyboard,received,1073741904,wait
+4118,Stimulus,presented,1
+4120,Stimulus,presented,2
+4249,Keyboard,received,1073741904,wait
+4249,Stimulus,presented,1
+4251,Stimulus,presented,2
+5488,Keyboard,received,50,wait
+5488,stderr,received,'Traceback (most recent call last):'
+5489,stderr,received,'  File "d:\\认知科学\\Programming\\Assignments\\Week-5\\Exercises\\blindspot.py", line 53, in <module>\n    run_trial()\n    ~~~~~~~~~^^'
+5489,stderr,received,'  File "d:\\认知科学\\Programming\\Assignments\\Week-5\\Exercises\\blindspot.py", line 46, in run_trial\n    circle = make_circle()'
+5489,stderr,received,"TypeError: make_circle() missing 1 required positional argument: 'r'"

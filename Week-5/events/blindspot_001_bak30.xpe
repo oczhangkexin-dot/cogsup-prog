@@ -1,0 +1,70 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp936
+#date: Sun Mar 29 2026 00:39:29
+#sha1: cd6405
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='Kexin', release='11', version='10.0.26200', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+961,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+961,design,logged,
+961,Experiment,started
+980,stdout,received,'{1073741903: 1, 1073741904: -1, 1073741906: 1, 1073741905: -1, 50: 1, 49: -1}'
+982,Stimulus,presented,0
+2530,Keyboard,received,32,wait
+2530,Stimulus,presented,1
+2532,Stimulus,presented,2
+4516,Keyboard,received,50,wait
+4521,Stimulus,presented,1
+4523,Stimulus,presented,2
+4863,Keyboard,received,50,wait
+4868,Stimulus,presented,1
+4870,Stimulus,presented,2
+5067,Keyboard,received,50,wait
+5071,Stimulus,presented,1
+5073,Stimulus,presented,2
+5232,Keyboard,received,50,wait
+5237,Stimulus,presented,1
+5238,Stimulus,presented,2
+5386,Keyboard,received,50,wait
+5390,Stimulus,presented,1
+5392,Stimulus,presented,2
+5527,Keyboard,received,50,wait
+5531,Stimulus,presented,1
+5533,Stimulus,presented,2
+5639,Keyboard,received,50,wait
+5643,Stimulus,presented,1
+5645,Stimulus,presented,2
+5734,Keyboard,received,50,wait
+5739,Stimulus,presented,1
+5740,Stimulus,presented,2
+5949,Keyboard,received,50,wait
+5953,Stimulus,presented,1
+5955,Stimulus,presented,2
+6131,Keyboard,received,50,wait
+6136,Stimulus,presented,1
+6137,Stimulus,presented,2
+6265,Keyboard,received,50,wait
+6269,Stimulus,presented,1
+6270,Stimulus,presented,2
+6407,Keyboard,received,50,wait
+6411,Stimulus,presented,1
+6413,Stimulus,presented,2
+6539,Keyboard,received,50,wait
+6543,Stimulus,presented,1
+6545,Stimulus,presented,2
+6665,Keyboard,received,50,wait
+6669,Stimulus,presented,1
+6671,Stimulus,presented,2
+6771,Keyboard,received,50,wait
+6775,Stimulus,presented,1
+6777,Stimulus,presented,2
+6880,Keyboard,received,50,wait
+6885,Stimulus,presented,1
+6887,Stimulus,presented,2
+7011,Keyboard,received,50,wait
+7015,Stimulus,presented,1
+7016,Stimulus,presented,2
+7741,Keyboard,received,32,wait
+7743,Experiment,ended
