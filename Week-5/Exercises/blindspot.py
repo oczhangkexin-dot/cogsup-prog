@@ -18,7 +18,7 @@ def run_trial(eye):
     instruction = f"Cover your {eye} eye and staring at the cross with your {eyes[eyes.index(eye)-1]} eye. Using keys to adjust the position (left and right arrows) and size (1 for smaller and 2 for bigger) of the circle until you cannot see it. Press Space to continue."
     text_instruction = stimuli.TextBox(instruction, size=(600, 300), text_size=25, position=(0, 0), text_justification=0)
     text_instruction.preload()
-    fixation = stimuli.FixCross(size=(150, 150), line_width=10, position=[300, 0] if eye == "left" else [-300, 0])
+    fixation = stimuli.FixCross(size=(150, 150), line_width=10, position=[300, 0] if eye == "right" else [-300, 0])
     fixation.preload()
 
     radius = 75
