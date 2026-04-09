@@ -1,0 +1,11 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpd-file, coding: cp936
+#date: Fri Apr 10 2026 01:43:53
+#--EXPERIMENT INFO
+#e mainfile: circle_choice_3.py
+#e sha1: a21342
+#e modules: 
+#e Experiment: key
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 13
+subject_id,Block,Trials,Condition,Key,Response,RT

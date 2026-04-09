@@ -1,11 +1,12 @@
 #Expyriment 1.0.0 (Python 3.13.7), .xpd-file, coding: cp936
-#date: Sun Mar 29 2026 00:57:53
+#date: Thu Apr 09 2026 19:32:00
 #--EXPERIMENT INFO
-#e mainfile: blindspot.py
-#e sha1: 2e4e42
+#e mainfile: circle_choice_2.py
+#e sha1: e54d34
 #e modules: 
-#e Experiment: Blindspot
+#e Experiment: key
 #e no between subject factors
 #--SUBJECT INFO
 #s id: 1
-subject_id,
+subject_id,Key,RT
+1,1073741904,1087

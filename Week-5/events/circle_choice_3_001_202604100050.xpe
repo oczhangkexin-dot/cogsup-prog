@@ -1,0 +1,68 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp936
+#date: Fri Apr 10 2026 00:50:11
+#sha1: e653a9
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Kexin', release='11', version='10.0.26200', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+14193,design,log,
+#design: #exp: key
+#design: #dvn: Block,Trials,Condition,Response,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+14193,design,logged,
+14193,Experiment,started
+14196,Stimulus,presented,0
+15521,Keyboard,received,32,wait
+15522,Stimulus,presented,3
+15524,Stimulus,presented,4
+16049,Keyboard,received,1073741903,wait
+16050,Stimulus,presented,1
+16750,Stimulus,presented,3
+16753,Stimulus,presented,4
+17387,Keyboard,received,1073741903,wait
+17389,Stimulus,presented,1
+18090,Stimulus,presented,3
+18092,Stimulus,presented,4
+18477,Keyboard,received,1073741904,wait
+18478,Stimulus,presented,1
+19178,Stimulus,presented,3
+19180,Stimulus,presented,4
+19517,Keyboard,received,1073741904,wait
+19519,Stimulus,presented,1
+20220,Stimulus,presented,3
+20221,Stimulus,presented,4
+20503,Keyboard,received,1073741903,wait
+20504,Stimulus,presented,1
+21204,Stimulus,presented,3
+21206,Stimulus,presented,4
+21567,Keyboard,received,1073741903,wait
+21568,Stimulus,presented,1
+22269,Stimulus,presented,3
+22270,Stimulus,presented,4
+22618,Keyboard,received,1073741903,wait
+22620,Stimulus,presented,1
+23320,Stimulus,presented,3
+23322,Stimulus,presented,4
+23694,Keyboard,received,1073741903,wait
+23695,Stimulus,presented,1
+24396,Stimulus,presented,3
+24397,Stimulus,presented,4
+24728,Keyboard,received,1073741903,wait
+24730,Stimulus,presented,1
+25430,Stimulus,presented,3
+25431,Stimulus,presented,4
+25693,Keyboard,received,1073741903,wait
+25695,Stimulus,presented,1
+26398,Stimulus,presented,6
+32586,Experiment,paused
+32589,Stimulus,presented,7
+47264,stderr,received,'Traceback (most recent call last):'
+47268,stderr,received,'  File "d:\\认知科学\\Programming\\Assignments\\Week-5\\Exercises\\circle_choice_3.py", line 52, in <module>\n    exp.keyboard.wait()\n    ~~~~~~~~~~~~~~~~~^^'
+47268,stderr,received,'  File "D:\\Python\\Lib\\site-packages\\expyriment\\io\\_keyboard.py", line 381, in wait\n    Keyboard.process_control_keys(event):\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^'
+47268,stderr,received,'  File "D:\\Python\\Lib\\site-packages\\expyriment\\io\\_keyboard.py", line 145, in process_control_keys\n    cls.quit_control.call_functions(event_detected_function,\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\n                                    quit_confirmed_function,\n                                    ^^^^^^^^^^^^^^^^^^^^^^^^\n                                    quit_denied_function)\n                                    ^^^^^^^^^^^^^^^^^^^^^'
+47269,stderr,received,'  File "D:\\Python\\Lib\\site-packages\\expyriment\\io\\_keyboard.py", line 63, in call_functions\n    confirm = cls.end_function(\n        confirmation=True,\n        pre_quit_function = _list(cls.quit_confirmed_functions) +\\\n                                _list(quit_confirmed_function))'
+47269,stderr,received,'  File "D:\\Python\\Lib\\site-packages\\expyriment\\control\\_experiment_control.py", line 322, in end\n    char = Keyboard().wait_char(["y", "n"], process_control_events=False,\n                                low_performance=True)'
+47269,stderr,received,'  File "D:\\Python\\Lib\\site-packages\\expyriment\\io\\_keyboard.py", line 482, in wait_char\n    _internals.low_performance_sleep()\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^'
+47269,stderr,received,'  File "D:\\Python\\Lib\\site-packages\\expyriment\\_internals.py", line 19, in low_performance_sleep\n    sleep(0.0001)\n    ~~~~~^^^^^^^^'
+47269,stderr,received,'KeyboardInterrupt'
+47277,Data,saved

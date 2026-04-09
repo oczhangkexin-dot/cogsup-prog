@@ -1,0 +1,30 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp936
+#date: Fri Apr 10 2026 01:44:17
+#sha1: ebb369
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Kexin', release='11', version='10.0.26200', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+13068,design,log,
+#design: #exp: key
+#design: #dvn: Block,Trials,Condition,Key,Response,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+13068,design,logged,
+13068,Experiment,started
+13070,Stimulus,presented,0
+16915,Keyboard,received,32,wait
+16915,Stimulus,presented,0
+17415,Stimulus,presented,3
+17417,Stimulus,presented,4
+22678,Experiment,paused
+22681,Stimulus,presented,6
+35873,stderr,received,'Traceback (most recent call last):'
+35874,stderr,received,'  File "d:\\认知科学\\Programming\\Assignments\\Week-5\\Exercises\\circle_choice_3.py", line 54, in <module>\n    run_trials(5)\n    ~~~~~~~~~~^^^'
+35874,stderr,received,'  File "d:\\认知科学\\Programming\\Assignments\\Week-5\\Exercises\\circle_choice_3.py", line 40, in run_trials\n    key, t= exp.keyboard.wait(keys=[K_RIGHT, K_LEFT])\n            ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^'
+35874,stderr,received,'  File "D:\\Python\\Lib\\site-packages\\expyriment\\io\\_keyboard.py", line 381, in wait\n    Keyboard.process_control_keys(event):\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^'
+35875,stderr,received,'  File "D:\\Python\\Lib\\site-packages\\expyriment\\io\\_keyboard.py", line 145, in process_control_keys\n    cls.quit_control.call_functions(event_detected_function,\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\n                                    quit_confirmed_function,\n                                    ^^^^^^^^^^^^^^^^^^^^^^^^\n                                    quit_denied_function)\n                                    ^^^^^^^^^^^^^^^^^^^^^'
+35875,stderr,received,'  File "D:\\Python\\Lib\\site-packages\\expyriment\\io\\_keyboard.py", line 63, in call_functions\n    confirm = cls.end_function(\n        confirmation=True,\n        pre_quit_function = _list(cls.quit_confirmed_functions) +\\\n                                _list(quit_confirmed_function))'
+35875,stderr,received,'  File "D:\\Python\\Lib\\site-packages\\expyriment\\control\\_experiment_control.py", line 322, in end\n    char = Keyboard().wait_char(["y", "n"], process_control_events=False,\n                                low_performance=True)'
+35875,stderr,received,'  File "D:\\Python\\Lib\\site-packages\\expyriment\\io\\_keyboard.py", line 482, in wait_char\n    _internals.low_performance_sleep()\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^'
+35875,stderr,received,'  File "D:\\Python\\Lib\\site-packages\\expyriment\\_internals.py", line 19, in low_performance_sleep\n    sleep(0.0001)\n    ~~~~~^^^^^^^^'
+35875,stderr,received,'KeyboardInterrupt'

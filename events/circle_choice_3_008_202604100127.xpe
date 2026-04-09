@@ -1,0 +1,40 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp936
+#date: Fri Apr 10 2026 01:27:17
+#sha1: 4e5cc0
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Kexin', release='11', version='10.0.26200', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+13436,design,log,
+#design: #exp: key
+#design: #dvn: Block,Trials,Condition,Key,Response,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+13436,design,logged,
+13436,Experiment,started
+13439,Stimulus,presented,0
+14428,Keyboard,received,32,wait
+14929,Stimulus,presented,3
+14931,Stimulus,presented,4
+15790,Keyboard,received,1073741904,wait
+15792,Stimulus,presented,1
+16992,Stimulus,presented,3
+16994,Stimulus,presented,4
+17392,Keyboard,received,1073741904,wait
+17393,Stimulus,presented,1
+18594,Stimulus,presented,3
+18595,Stimulus,presented,4
+18990,Keyboard,received,1073741904,wait
+18992,Stimulus,presented,1
+20192,Stimulus,presented,3
+20194,Stimulus,presented,4
+20565,Keyboard,received,1073741904,wait
+20566,Stimulus,presented,1
+21767,Stimulus,presented,3
+21769,Stimulus,presented,4
+22239,Keyboard,received,1073741903,wait
+22241,Stimulus,presented,1
+22942,stderr,received,'Traceback (most recent call last):'
+22942,stderr,received,'  File "d:\\认知科学\\Programming\\Assignments\\Week-5\\Exercises\\circle_choice_3.py", line 51, in <module>\n    run_trials(5)\n    ~~~~~~~~~~^^^'
+22942,stderr,received,'  File "d:\\认知科学\\Programming\\Assignments\\Week-5\\Exercises\\circle_choice_3.py", line 32, in run_trials\n    r = random.choice([-1, 1]) if block_condition[block_counter+1] == "stochastic" else R\n                                  ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^'
+22942,stderr,received,'IndexError: list index out of range'
+22952,Data,saved

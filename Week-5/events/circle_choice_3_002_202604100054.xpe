@@ -1,0 +1,19 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp936
+#date: Fri Apr 10 2026 00:54:57
+#sha1: c9dc09
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Kexin', release='11', version='10.0.26200', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+11610,design,log,
+#design: #exp: key
+#design: #dvn: Block,Trials,Condition,Response,RT
+#design: block_cnt,block_id,trial_cnt,trial_id
+11610,design,logged,
+11610,Experiment,started
+11612,Stimulus,presented,0
+13689,Keyboard,received,32,wait
+13690,stderr,received,'Traceback (most recent call last):'
+13691,stderr,received,'  File "d:\\认知科学\\Programming\\Assignments\\Week-5\\Exercises\\circle_choice_3.py", line 51, in <module>\n    run_trials(5)\n    ~~~~~~~~~~^^^'
+13691,stderr,received,'  File "d:\\认知科学\\Programming\\Assignments\\Week-5\\Exercises\\circle_choice_3.py", line 33, in run_trials\n    r = random.choice([-1, 1]) if block_condition[block_counter] == "stochastic" else r == 1\n                                                                                      ^'
+13691,stderr,received,"UnboundLocalError: cannot access local variable 'r' where it is not associated with a value"
