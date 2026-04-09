@@ -5,7 +5,7 @@ from expyriment.misc.constants import C_WHITE, C_BLACK, K_LEFT, K_RIGHT, K_UP, K
 exp = design.Experiment(name="Blindspot", background_colour=C_WHITE, foreground_colour=C_BLACK)
 control.set_develop_mode()
 control.initialize(exp)
-
+exp.add_data_variable_names(["Key", "RT"])
 """ Stimuli """
 def make_circle(r, pos=(0,0)):
     c = stimuli.Circle(r, position=pos, anti_aliasing=10)
@@ -34,9 +34,12 @@ def run_trial(eye):
     text_instruction.present(True, True)
     exp.keyboard.wait()
     while True:
+        t0 = exp.clock.time
         fixation.present(True, False)
         circle.present(False, True)
         key_move, t = exp.keyboard.wait(keys=key_list+[K_SPACE])
+        t1 = t - t0
+        exp.data.add([key_move, t1])
         if key_move in [K_RIGHT, K_LEFT, K_UP, K_DOWN]: 
             if key_move in [K_RIGHT, K_LEFT]:
                 circle.move(offset=(5*adjusting_dict[key_move], 0))
