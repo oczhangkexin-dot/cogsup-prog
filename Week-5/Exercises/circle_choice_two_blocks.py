@@ -32,8 +32,7 @@ def run_trials(trials_per_block=5, block_condition=["deterministic", "stochastic
         if trial_counter > trials_per_block:
             block_counter += 1
             trial_counter = 1
-        r = random.choice([-1, 1]) if block_condition[block_counter
-         ] == "stochastic" else R
+        r = random.choice([-1, 1]) if block_condition[block_counter] == "stochastic" else R
         cl.reposition((r * 100, 0)) 
         rec.reposition(((-r) * 100, 0))
         cl.present(True, False)
@@ -50,6 +49,7 @@ def run_trials(trials_per_block=5, block_condition=["deterministic", "stochastic
         exp.data.add([block_counter+1, trial_counter+trials_per_block*block_counter, block_condition[block_counter], key, fdbk, t])
     text_feedback_final = stimuli.TextLine(f"Correct: {correct}     Wrong: {trials_per_block*len(block_condition)-correct}")
     text_feedback_final.present(True, True)
+
 
 control.start()
 run_trials(5)

@@ -1,0 +1,21 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpd-file, coding: cp936
+#date: Fri Apr 10 2026 02:18:43
+#--EXPERIMENT INFO
+#e mainfile: circle_choice_two_blocks.py
+#e sha1: 4714e4
+#e modules: 
+#e Experiment: key
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 6
+subject_id,Block,Trials,Condition,Key,Response,RT
+6,1,1,deterministic,1073741904,correct,269
+6,1,2,deterministic,1073741904,correct,211
+6,1,3,deterministic,1073741904,correct,141
+6,1,4,deterministic,1073741904,correct,175
+6,1,5,deterministic,1073741904,correct,184
+6,2,6,stochastic,1073741903,correct,369
+6,2,7,stochastic,1073741904,correct,283
+6,2,8,stochastic,1073741904,correct,277
+6,2,9,stochastic,1073741903,correct,258
+6,2,10,stochastic,1073741904,correct,310
